@@ -65,8 +65,34 @@ button
     background-color: rgb(255, 124, 124);
     font-size: 1em;
 }
-
-
+.desativado
+{
+    background-color: gray;
+}
+.container-botoes-editar-apagar
+{
+    display: flex;
+    gap: 4px;
+}
+.botao-salvar
+{
+    background-color: rgb(76, 161, 76);
+    font-size: 1em;
+}
+.botao-cancelar
+{
+    background-color: gray;
+    font-size: 1em;
+}
+.container-botoes-salvar-cancelar
+{
+    display: flex;
+    gap: 4px;
+}
+.esconder-botoes
+{
+    display: none !important;
+}
 
 
 

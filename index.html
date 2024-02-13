@@ -11,16 +11,33 @@
     <main>
         <form action="">
             <input type="text" id="input-novo-item">
-            <button class="botao-adicionar" >+</button>
+            <button disabled class="botao-adicionar desativado" >+</button>
         </form>
 
         <ul>
             <li>
                 <input value="Estudar JavaScript" disabled type="text">
 
-                <div>
+                <div class="container-botoes-editar-apagar">
                     <button class="botao-editar">Editar</button>
                     <button class="botao-apagar">Apagar</button>
+                </div>
+
+                <div class="container-botoes-salvar-cancelar esconder-botoes">
+                    <button class="botao-salvar">Salvar</button>
+                    <button class="botao-cancelar">Cancelar</button>
+                </div>
+            </li>
+            <li>
+                <input value="Estudar HTML" disabled type="text">
+
+                <div class="container-botoes-editar-apagar">
+                    <button class="botao-editar">Editar</button>
+                    <button class="botao-apagar">Apagar</button>
+                </div>
+                <div class="container-botoes-salvar-cancelar esconder-botoes">
+                    <button class="botao-salvar">Salvar</button>
+                    <button class="botao-cancelar">Cancelar</button>
                 </div>
             </li>
         </ul>
