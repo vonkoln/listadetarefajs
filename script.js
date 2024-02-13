@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const botaoAdicionarItem = document.getElementsByClassName("botao-adicionar")[0]
     
-   botaoAdicionarItem.addEventListener("click", () => {
+   botaoAdicionarItem.addEventListener("click", (evento) => {
+    evento.preventDefault()
     console.log("Botão Clicado")
    })
 })

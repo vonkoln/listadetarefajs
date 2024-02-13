@@ -45,24 +45,24 @@ li input
 }
 button
 {
-    color: white;
+    color: rgb(55, 29, 65);
     border: none;
     font-weight: bold;
     cursor: pointer;
 }
 .botao-adicionar
 {
-    background-color: green;
+    background-color: rgb(76, 161, 76);
     font-size: 1.5em;
 }
 .botao-editar
 {
-    background-color: blue;
+    background-color: rgb(133, 133, 255);
     font-size: 1em;
 }
 .botao-apagar
 {
-    background-color: red;
+    background-color: rgb(255, 124, 124);
     font-size: 1em;
 }
 
