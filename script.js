@@ -3,7 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const botaoAdicionarItem = document.getElementsByClassName("botao-adicionar")[0]
     
-    console.log(botaoAdicionarItem)
+   botaoAdicionarItem.addEventListener("click", () => {
+    console.log("Botão Clicado")
+   })
 })
 
 
