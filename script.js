@@ -70,20 +70,20 @@ document.addEventListener("DOMContentLoaded", () => {
         const input = botaoEditar.parentNode.parentNode.getElementsByTagName("input")[0]
         input.disabled = false
  
-     const fimInput = input.value.length
+        const fimInput = input.value.length
         input.setSelectionRange(fimInput,fimInput)
         input.focus()
  
-       const botoesSalvarCancelar = botaoEditar.parentNode.parentNode.getElementsByClassName("container-botoes-salvar-cancelar")[0]
+        const botoesSalvarCancelar = botaoEditar.parentNode.parentNode.getElementsByClassName("container-botoes-salvar-cancelar")[0]
          
-       botoesSalvarCancelar.classList.remove("esconder-botoes")
-       botaoEditar.parentNode.classList.add("esconder-botoes")
+        botoesSalvarCancelar.classList.remove("esconder-botoes")
+        botaoEditar.parentNode.classList.add("esconder-botoes")
  
-       const conteudoItem = input.value
+        const conteudoItem = input.value
  
-       const botaoCancelar = botoesSalvarCancelar.getElementsByClassName("botao-cancelar")[0]
+        const botaoCancelar = botoesSalvarCancelar.getElementsByClassName("botao-cancelar")[0]
  
-       botaoCancelar.addEventListener("click", () => {
+        botaoCancelar.addEventListener("click", () => {
          input.value = conteudoItem
          input.disabled = true
  
