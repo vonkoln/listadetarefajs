@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
     item.append(containerBotoes)
     item.append(containerBotoesSalvarCancelar)
 
-    botaoEditar("click", () => {
+    botaoEditar.addEventListener("click", () => {
         
         const input = botaoEditar.parentNode.parentNode.getElementsByTagName("input")[0]
         input.disabled = false
